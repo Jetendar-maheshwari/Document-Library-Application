@@ -1,6 +1,6 @@
 # Document Library Applicatoion
 
-A Web application developed in ASP.Net, C# and REACT using Visual Studio and .NET for efficiently managing attachments.
+A Web application developed in ASP.Net, C# and React using Visual Studio and .NET for efficiently managing attachments.
 
 # How to Run the Application
 
