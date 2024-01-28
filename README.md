@@ -4,9 +4,9 @@ A Web application developed in ASP.Net, C# and REACT using Visual Studio and .NE
 
 # How to Run the Application
 
-To run the Document library application, follow these steps:
+To run the Document Library application, follow these steps:
 
-1. Open the application in the visual studo
+1. Open the application in the visual studio
 2. Run the database schema which is available inside the Document library application, Database folder
 3. Change the database configuration inside the appsetting.json file, Change DefaultConnection
     - "DefaultConnection": "Server=127.0.0.1;Port=8889;Uid=root;Pwd=root;Database=document_library;"
@@ -42,14 +42,14 @@ It includes:
 
 ### Service Layer and Repository Interface
 
-For better code organization, the system includes a service layer and repository interface.
+The system includes a service layer and repository interface for better code organisation.
 
 ## File Structure
 
 In the `DocLib` file structure: Document Library Application that contains
 
-    - Client App that contain client-side code in React inside this
-        - src folder that contains component that are used in the application
+    - Client App that contains client-side code in React inside this
+        - src folder that contains components that are used in the application
             - component
     - Controllers
     - Modes
