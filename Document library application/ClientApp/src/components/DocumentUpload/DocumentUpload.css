@@ -1,0 +1,69 @@
+﻿.dropzone-container {
+    border: 2px dashed #cccccc;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.uploaded-files {
+    margin-top: 10px;
+}
+
+.uploaded-files ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.uploaded-files li {
+    margin-bottom: 10px;
+}
+
+.small-button {
+    font-size: 11px;
+    padding: 4px 8px;
+    margin-left: 6px;
+}
+
+.upload-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.download-badge {
+    position: absolute;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 1;
+    text-align: center;
+    line-height: 1;
+}
+.dropzone-container {
+    border: 2px dashed #cccccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.dropzone-label {
+    display: block;
+    cursor: pointer;
+}
+
+input[type='file'] {
+    display: none;
+}

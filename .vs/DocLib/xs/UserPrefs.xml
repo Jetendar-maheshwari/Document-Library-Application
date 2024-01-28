@@ -1,0 +1,60 @@
+﻿<Properties StartupConfiguration="{DF2905E0-790C-4DF0-94B8-7723C1D6445E}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Document_220library_220application PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Document library application/.gitignore">
+    <Files>
+      <File FileName="Document library application/ClientApp/src/components/DateTimeFormatter/DateTimeFormatter.js" Line="1" Column="1" />
+      <File FileName="Document library application/ClientApp/src/components/DocumentUpload/DocumentUpload.css" Line="1" Column="1" />
+      <File FileName="Document library application/ClientApp/src/components/DocumentUpload/DocumentUpload.js" Line="196" Column="60" />
+      <File FileName="Document library application/ClientApp/src/components/FileIcon/FileIcon.css" Line="1" Column="1" />
+      <File FileName="Document library application/ClientApp/src/components/FileIcon/FileIcon.js" Line="1" Column="1" />
+      <File FileName="Document library application/ClientApp/src/components/FileList/FileList.css" Line="40" Column="1" />
+      <File FileName="Document library application/ClientApp/src/components/FileList/FileList.js" Line="1" Column="1" />
+      <File FileName="Document library application/ClientApp/src/components/NavMenu/NavMenu.js" Line="1" Column="1" />
+      <File FileName="Document library application/ClientApp/src/components/NavMenu/NavMenu.css" Line="1" Column="1" />
+      <File FileName="Document library application/ClientApp/src/components/PreviewModal/PreviewModal.js" Line="3" Column="31" />
+      <File FileName="Document library application/ClientApp/src/components/ShareDropdown/ShareDropdown.css" Line="1" Column="1" />
+      <File FileName="Document library application/ClientApp/src/components/ShareDropdown/ShareDropdown.js" Line="1" Column="1" />
+      <File FileName="Document library application/ClientApp/src/App.js" Line="1" Column="1" />
+      <File FileName="Document library application/ClientApp/src/components/Layout.js" Line="1" Column="1" />
+      <File FileName="Document library application/ClientApp/src/AppRoutes.js" Line="1" Column="1" />
+      <File FileName="Document library application/ClientApp/src/index.js" Line="22" Column="1" />
+      <File FileName="Document library application/ClientApp/src/reportWebVitals.js" Line="1" Column="1" />
+      <File FileName="Document library application/Controllers/AttachmentController.cs" Line="250" Column="10" />
+      <File FileName="Document library application/Controllers/AttachmentHelper.cs" Line="29" Column="58" />
+      <File FileName="Document library application/Models/AttachmentModel.cs" Line="1" Column="1" />
+      <File FileName="Document library application/Models/ShareAttachmentModel.cs" Line="1" Column="1" />
+      <File FileName="Document library application/Repository/AttachmentRepository.cs" Line="1" Column="1" />
+      <File FileName="Document library application/Repository/IAttachmentRepository.cs" Line="1" Column="1" />
+      <File FileName="Document library application/Repository/IShareAttachtmentRepository.cs" Line="1" Column="1" />
+      <File FileName="Document library application/Repository/ShareAttachmnetRepository.cs" Line="91" Column="32" />
+      <File FileName="Document library application/Services/AttachmentService.cs" Line="1" Column="1" />
+      <File FileName="Document library application/Services/ShareAttachmentService.cs" Line="1" Column="1" />
+      <File FileName="Document library application/.gitignore" Line="1" Column="1" />
+      <File FileName="Document library application/appsettings.json" Line="1" Column="1" />
+      <File FileName="Document library application/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DocLib" expanded="True">
+            <Node name="Document library application" expanded="True">
+              <Node name="Database" expanded="True" />
+              <Node name=".gitignore" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="DocLib" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

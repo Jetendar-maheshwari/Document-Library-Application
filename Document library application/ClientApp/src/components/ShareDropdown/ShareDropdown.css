@@ -1,0 +1,26 @@
+﻿.button-dropdown-container {
+    display: flex;
+    align-items: center;
+}
+
+.custom-button-group {
+    margin-right: 10px;
+}
+
+.custom-toggle {
+    background-color: #6c757d;
+    color: #fff;
+    border-color: #6c757d;
+}
+
+.custom-dropdown-menu {
+    min-width: 150px;
+}
+
+.custom-dropdown-menu .dropdown-item {
+    color: #212529;
+}
+
+.custom-dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
