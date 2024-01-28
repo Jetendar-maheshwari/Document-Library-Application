@@ -51,6 +51,7 @@ In the `DocLib` file structure: Document Library Application that contains
     - Client App that contains client-side code in React inside this
         - src folder that contains components that are used in the application
             - component
+    - Database
     - Controllers
     - Modes
     - Repository
