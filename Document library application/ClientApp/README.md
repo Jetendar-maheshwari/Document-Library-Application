@@ -7,6 +7,7 @@ A Web application developed in ASP.Net, C# and REACT using Visual Studio and .NE
 To run the Document library application, follow these steps:
 
 1. Open the application in the visual studo
+1. Run the database schema which is avaible inside the Document library application, Database folder
 2. Change the database configuration inside the appsetting.json file, Change DefaultConnection
     - "DefaultConnection": "Server=127.0.0.1;Port=8889;Uid=root;Pwd=root;Database=document_library;"
     - change it with your database configuration.
