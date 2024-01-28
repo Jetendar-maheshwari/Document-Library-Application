@@ -47,9 +47,10 @@ The system includes a service layer and repository interface for better code org
 
 In the `DocLib` file structure: Document Library Application that contains
 
-    - Client App that contain client-side code in React inside this
-        - scr folder that contains component that are used in the application
+    - Client App that contains client-side code in React inside this
+        - src folder that contains components that are used in the application
             - component
+    - Database
     - Controllers
     - Modes
     - Repository
@@ -57,6 +58,9 @@ In the `DocLib` file structure: Document Library Application that contains
     - upload_attachments
 - test
     - Contain folder RespostoryTest with AttachmentRepositoryTest
+ 
+### Database
+Two table name attachment and shared_attachment
 
 
 ### Models (Attachment and  ShareAttachment)
