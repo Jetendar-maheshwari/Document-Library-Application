@@ -52,7 +52,7 @@ This will execute unit tests for the backend repositories code.
 - React Framework: React was chosen for its efficiency in building interactive user interfaces.
 - Component Modularity: Component was structured into reusable pieces to foster modularity and ease of maintenance.
 - Bootstrap for Responsive Design: Material UI was implemented to achieve responsive design across different devices.
-- GraphQL and Apollo Server Integration: GraphQL and Apollo Server were leveraged to optimize data querying and communication between the frontend and backend.
+- MySQL Database is used for save the data of attachment e.g: attachment path, time and some other attributes.
 - Nunit test is used for robustness and reliability of the application, validating the functionality of Repository.
 - ASP.Net, C# is used for the backend
 
