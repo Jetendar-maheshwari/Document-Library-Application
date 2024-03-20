@@ -2,36 +2,59 @@
 
 A Web application developed in ASP.Net, C# and React using Visual Studio and .NET for efficiently managing attachments.
 
-# How to Run the Application
+## Overview
 
-To run the Document Library application, follow these steps:
+The Document Library Application provides a user-friendly interface for uploading multiple types of attachments and displaying a list of all uploaded attachments.
 
-1. Open the application in the visual studio
-2. Run the database schema which is available inside the Document library application, Database folder - (Available DocLib/Document library application/Database/document_library.sql)
+## Features
 
-3. Change the database configuration inside the appsetting.json file, Change DefaultConnection
-    - "DefaultConnection": "Server=127.0.0.1;Port=8889;Uid=root;Pwd=root;Database=document_library;"
-    - change it with your database configuration.
-4. Build the application
-5. Run the Application
-6. Intially Program.cs file is executed.
-
-# Features
-
-- Upload Attachment
+- Upload Attachment (Images, PDF, Words, Excell, Power-Point)
 - List and overview of all uploaded attachments
 - Download the uploaded attachment
 - Share the attachment via the link
 - Preview the attachment
-- The application follows coding standards, incorporates design patterns, and includes comprehensive testing cases.
+- The application follows coding standards, incorporates design patterns, and includes comprehensive testing cases
 
+## Installation
 
-### Using Visual Studio:
+1. Clone the repository from GitHub
+2. Open the application in the visual studio
 
-3. If you have Visual Studio installed, you can open the project in Visual Studio and set `Program.cs` as the startup file.
-4. Build the project.
-5. Run the project, and the console application will start.
+## Run Database Schema
 
+3. Run the database schema which is available inside the Document library application.
+   Database folder - (Available DocLib/Document library application/Database/document_library.sql)
+
+4. Change the database configuration inside the appsetting.json file, Change DefaultConnection
+    - "DefaultConnection": "Server=127.0.0.1;Port=8889;Uid=root;Pwd=root;Database=document_library;"
+    - change it with your database configuration.
+      
+## Run Application Using Visual Studio:
+
+5. Build the application
+6. Run the Application - Intially Program.cs file is executed.
+
+## Testing NUnit tests
+
+1. Navigate to the Project directory in your terminal.
+
+2. To run tests use the following command:
+
+```
+dotnet test
+
+```
+
+This will execute unit tests for the backend repositories code.
+
+## Technologies Used
+
+- React Framework: React was chosen for its efficiency in building interactive user interfaces.
+- Component Modularity: Component was structured into reusable pieces to foster modularity and ease of maintenance.
+- Bootstrap for Responsive Design: Material UI was implemented to achieve responsive design across different devices.
+- GraphQL and Apollo Server Integration: GraphQL and Apollo Server were leveraged to optimize data querying and communication between the frontend and backend.
+- Nunit test is used for robustness and reliability of the application, validating the functionality of Repository.
+- ASP.Net, C# is used for the backend
 
 ## Architecture and Design Patterns
 
@@ -44,24 +67,6 @@ It includes:
 ### Service Layer and Repository Interface
 
 The system includes a service layer and repository interface for better code organisation.
-
-## File Structure
-
-In the `DocLib` file structure: Document Library Application that contains
-
-    - Client App that contains client-side code in React inside this
-        - src folder that contains components that are used in the application
-            - src
-                -components
-    - Database
-    - Controllers
-    - Modes
-    - Repository
-    - Services
-    - upload_attachments
-- test
-    - Contain folder RespostoryTest with AttachmentRepositoryTest
-
 
 ### Models (Attachment and  ShareAttachment)
 
